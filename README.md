@@ -61,7 +61,7 @@ A piece of software, which is developed for others to use in their own projects 
 
 | Name | Description | Required |
 |:-|:-|:-|
-| Introduction | Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? | Yes |
+| Introduction | Describe briefly what your module / library is. What problem does it solve? What can you use it for? At what target audience is it aimed? | Yes |
 | Usage | Show how to use it with a code example. Focus on the key features and do not include too much (that is for the Wiki). Also do not delve into the API to much. We'll get to that | Yes |
 | API | Describe the API of your module / library such that other developers know how to interact with it. | Yes |
 | Installation | Briefly describe how other developers can use your library. Make it as short as possible and rely on package managers (e.g. npm, conan, gradle, ...). Assume that they are known when refering to your target (developer) audience. | Yes |

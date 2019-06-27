@@ -1,6 +1,6 @@
 # {NAME}
 <!-- section: Introduction -->
-<!-- Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? -->
+<!-- Describe briefly what your module / library is. What problem does it solve? What can you use it for? At what target audience is it aimed? -->
 
 ## Usage
 <!-- section: Usage -->
