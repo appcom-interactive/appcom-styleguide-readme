@@ -24,10 +24,70 @@ This section serves only one purpose: convince you of the need of a README!
 **[back to top](#table-of-contents)**
 
 ## Why does your project need a README?
+For starters see the "Random quotes" section. Not convinced yet? Here are some more reasons why your projects need a README.md:
+
+* A README is a developers first look into your creation
+* When handing out a piece of software without a README another developer is (likely) not able to run or develop it 
+* Starting out with a README.md forces you to focus on structure. May help you crafting an idea for the implementation
+* A README file acts as a table of contents for your most important information of your software (far better than a fully crafted documentation)
+* Arguing about something is way easier when it is written down somewhere. That is what your README is for!
+
+There are several more reasons why a README is important. Please add more (see [contributing section](#contributing))
 
 **[back to top](#table-of-contents)**
 
 ## How to write great READMEs
+Before you start writing your README file we want to given an idea what your README file is for. By the same token we want to state what your README shouldn't do.
+
+### What your README file should do
+Your README always refer to a piece of software (**it**) and describes it to the outside world (i.e. other developers, users, clients - **them**). It should
+
+1. tell them what it is (with context)
+2. show them what it looks like in action
+3. show them how they run and use it
+4. tell them any other relevant details
+
+### What your README file shouldn't do
+It should not
+
+* include every detailed information about your project. There are other documents that serve that purpose
+
+### Structure
+The structure of your README varies on the type of software it is describing. First we define the types of software and give a basic structure for every one of them
+
+#### Module / Library
+A piece of software, which is developed for others to use in their own projects / modules / libraries. Running it on its own is often useless. So you rely on others to use it. The structure of your README should reflect that!
+
+| Name | Description | Required |
+|:-|:-|:-|
+| Introduction | Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? | Yes |
+| Usage | Show how to use it with a code example. Focus on the key features and do not include too much (that is for the Wiki). Also do not delve into the API to much. We'll get to that | Yes |
+| API | Describe the API of your module / library such that other developers know how to interact with it. | Yes |
+| Installation | Briefly describe how other developers can use your library. Make it as short as possible and rely on package managers (e.g. npm, conan, gradle, ...). Assume that they are known when refering to your target (developer) audience. | Yes |
+| License | Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! | Yes |
+
+#### Solution Project (App, Website, ...)
+A solution project is a piece of software, which is often aimed at a user and not a developer. It is often meant to run alone (or together with a backend server) and often does not require other dependencies. Also in general there are binaries out there (e.g. Github, Google Play, iTunes Connect, ...) to run it on a target device. On your README you should emphasize what this project does and how to run it locally on your machine, such that one can add features and fix bugs (and more).
+
+| Name | Description | Required |
+|:-|:-|:-|
+| Introduction | Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? | Yes |
+| Overview | Give an architectural overview of your software. Is is interesting for other developers, who wants to catch on and want to developer features or fix bugs of your software. Do not go into too much detail. There are other documents for this. | Yes |
+| Development | If you software is developed within a team you shhould include this section. Describe how to setup thhe project. Include dependencies, conventions and other things to know in order to start developing. In short: After reading this section everyone should be able to develop this piece of software. | Yes |
+| Changelog | Describe that changes made to the software by version. Note that this should be done automatically. | No |
+| License | Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! | Yes |
+
+
+#### Styleguide
+This type of software is often not an actual software but just a set of documents describing what you should do or shouldn't do in a specific context (e.g. developing a piece of software). 
+
+| Name | Description | Required |
+|:-|:-|:-|
+| Introduction | Describe what this document refers to. At what target audience is it aimed? | Yes |
+| Table of contents | This shows what sections are covered in this document and gives the reader the possibility to jump to a specific section. It is highly recommended to use a TOC. | No |
+| Content | This the actual content. | Yes |
+| Related work | This section covers related works, further readings and tools that might be relevant or interesting for the reader. | No |
+| License | Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! | Yes |
 
 **[back to top](#table-of-contents)**
 
