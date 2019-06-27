@@ -102,6 +102,13 @@ We provide templates for each of the types covered in the previous section:
 * [Solution projects](./templates/README_project.md)
 * [Styleguides](./templates/README_styleguide.md)
 
+Download them and edit them to your liking. We also added comments to match it to the decription given in the section above. A section comment describes where the relevant section is placed within the document:
+
+```
+<!-- section: Introduction --> 
+You should add your description here. To see what you should put here refer to the description of the section "Introduction".
+```
+
 **[back to top](#table-of-contents)**
 
 ## Tipps
