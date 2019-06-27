@@ -50,6 +50,6 @@ To do so, make changes to the source files (i.e. this very document). Then open 
 
 ## License
 
-See [License file](./LICENSE)
+See [License file](./LICENSE.md)
 
 **[back to top](#table-of-contents)**
