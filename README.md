@@ -1,5 +1,7 @@
 # appcom README Styleguide
 
+This document aims at giving an introduction to README files and thus documentation in general. We argue why README files are important and give a basic idea on how to start writing and them and what to include. If you want to help crafting this document please refer to the [contributing section](#contributing).
+
 ## Table of Contents
 
 1. [Quotes](#quotes)
