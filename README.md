@@ -7,6 +7,7 @@ This document aims at giving an introduction to README files and thus documentat
 1. [Quotes](#quotes)
 1. [Why does your project need a README?](#why-does-your-project-need-a-readme?)
 1. [How to write great READMEs](#how-to-write-great-readmes)
+1. [Templates](#templates)
 1. [Tipps](#tipps)
 1. [Further reading](#further-reading) 
 1. [Contributing](#contributing)
@@ -64,6 +65,7 @@ A piece of software, which is developed for others to use in their own projects 
 | Usage | Show how to use it with a code example. Focus on the key features and do not include too much (that is for the Wiki). Also do not delve into the API to much. We'll get to that | Yes |
 | API | Describe the API of your module / library such that other developers know how to interact with it. | Yes |
 | Installation | Briefly describe how other developers can use your library. Make it as short as possible and rely on package managers (e.g. npm, conan, gradle, ...). Assume that they are known when refering to your target (developer) audience. | Yes |
+| Contributing | Describe what action one should take in order to contribute. Does a certain styleguide has to be adhered. How can one apply changes (i.e. push vs. pull request)? | Yes |
 | License | Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! | Yes |
 
 #### Solution Project (App, Website, ...)
@@ -75,6 +77,7 @@ A solution project is a piece of software, which is often aimed at a user and no
 | Overview | Give an architectural overview of your software. Is is interesting for other developers, who wants to catch on and want to developer features or fix bugs of your software. Do not go into too much detail. There are other documents for this. | Yes |
 | Development | If you software is developed within a team you shhould include this section. Describe how to setup thhe project. Include dependencies, conventions and other things to know in order to start developing. In short: After reading this section everyone should be able to develop this piece of software. | Yes |
 | Changelog | Describe that changes made to the software by version. Note that this should be done automatically. | No |
+| Contributing | Describe what action one should take in order to contribute. Does a certain styleguide has to be adhered. How can one apply changes (i.e. push vs. pull request)? | Yes |
 | License | Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! | Yes |
 
 
@@ -87,7 +90,17 @@ This type of software is often not an actual software but just a set of document
 | Table of contents | This shows what sections are covered in this document and gives the reader the possibility to jump to a specific section. It is highly recommended to use a TOC. | No |
 | Content | This the actual content. | Yes |
 | Related work | This section covers related works, further readings and tools that might be relevant or interesting for the reader. | No |
+| Contributing | Describe what action one should take in order to contribute. Does a certain styleguide has to be adhered. How can one apply changes (i.e. push vs. pull request)? | Yes |
 | License | Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! | Yes |
+
+**[back to top](#table-of-contents)**
+
+## Templates
+We provide templates for each of the types covered in the previous section:
+
+* [Modules / Libraries](./templates/README_module.md)
+* [Solution projects](./templates/README_project.md)
+* [Styleguides](./templates/README_styleguide.md)
 
 **[back to top](#table-of-contents)**
 
